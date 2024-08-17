@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000a1f !important;
+}
+
+.container{
+    margin: 100px 0 0 200px;
+    width: 70% ;
+    height: 450px;
+    display: flex;
+    justify-content: center !important;
+    gap: 10px !important;
+}
+
+.container img{
+    width: 10%;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid hsla(0, 10%, 92%, 0.89) !important;
+    transition: all ease-in-out 0.3s;
+}
+
+.container img:hover{
+    width: 25%;
+}
